@@ -2,7 +2,7 @@
 
 This is a simple image classification project that uses Support Vector Machine (SVM) to distinguish between images of cats and dogs. The model is trained using the popular [Dogs vs. Cats dataset](https://www.kaggle.com/competitions/dogs-vs-cats/data) provided by Kaggle.
 
----
+
 
 ##  Project Structure
 
@@ -20,22 +20,18 @@ Dogs-vs-Cats SVM/
 ├── dog.1.jpg
 └── ...
 
-markdown
-Copy
-Edit
 
----
 
-## 📦 Dataset
+# Dataset
 
 The dataset used for this project is **Dogs vs. Cats**, available on Kaggle:
-📎 https://www.kaggle.com/competitions/dogs-vs-cats/data
+ https://www.kaggle.com/competitions/dogs-vs-cats/data
 
 Due to GitHub's file size limitations, the dataset is **not included** in this repository.
 
 > ⚠️ The full dataset is over 500 MB. GitHub does not support uploading large datasets directly, so you need to download it manually.
 
-### 📥 Steps to Download and Set Up:
+# Steps to Download and Set Up:
 
 1. Go to the [Kaggle competition page](https://www.kaggle.com/competitions/dogs-vs-cats/data)
 2. Download the `train.zip` file
@@ -51,11 +47,6 @@ Dogs-vs-Cats SVM/
 ├── dog.0.jpg
 └── ...
 
-yaml
-Copy
-Edit
-
----
 
 ##  How It Works
 
@@ -64,43 +55,34 @@ Edit
 - The SVM model is trained on the processed features.
 - A few sample predictions are shown using matplotlib.
 
----
+
 
 ##  How to Run
 
 1. Make sure Python is installed (recommended: Python 3.9+)
 2. Install the dependencies:
 
-```bash
+
 pip install -r requirements.txt
 Run the script:
 
-bash
-Copy
-Edit
+
 python dogs_vs_cats_svm.py
 📌 Requirements
 The project uses the following Python libraries:
 
-text
-Copy
-Edit
 opencv-python
 scikit-learn
 matplotlib
 numpy
 If not using the requirements.txt file, you can install them manually:
 
-bash
-Copy
-Edit
+
 pip install opencv-python scikit-learn matplotlib numpy
  Output
 The script will show sample prediction images like:
 
-vbnet
-Copy
-Edit
+
 Predicted: dog, True: dog
 Predicted: cat, True: cat
 With the image preview.
