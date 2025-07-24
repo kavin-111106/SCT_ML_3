@@ -29,7 +29,7 @@ The dataset used for this project is **Dogs vs. Cats**, available on Kaggle:
 
 Due to GitHub's file size limitations, the dataset is **not included** in this repository.
 
-> ⚠️ The full dataset is over 500 MB. GitHub does not support uploading large datasets directly, so you need to download it manually.
+>  The full dataset is over 500 MB. GitHub does not support uploading large datasets directly, so you need to download it manually.
 
 # Steps to Download and Set Up:
 
@@ -68,7 +68,7 @@ Run the script:
 
 
 python dogs_vs_cats_svm.py
-📌 Requirements
+ Requirements
 The project uses the following Python libraries:
 
 opencv-python
